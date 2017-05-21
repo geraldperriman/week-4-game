@@ -2,8 +2,8 @@
 
 body{
 	background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Amazing-Crystal-background.jpg");
-	background-size: 100px;
-
+	background-size: 200px;
+	
 }
 
 
@@ -19,6 +19,7 @@ body{
 	height: 50px;
     padding: 50px;
 
+
 }
 
 
@@ -29,15 +30,14 @@ body{
 
 }
 
-#random-number{
+#Random-Number{
 	background-color: #008080;
-	display: inline-block;
+	display:inline-block;
 	font-size: 50px;
 	width:150px;
 	height:200px;
-	display: inline-block;
-	margin-left:100px;
-	float:left;
+	margin:100px;
+	
 }
 
 
@@ -45,40 +45,25 @@ body{
 	background: purple;
 	color:white;
 	width: 150px;
-	height: 200px;
+	height: 100px;
 	padding: 20px;
 	display: inline-block;
 	font-size: 20px;
-	margin-left:100px;
+	margin:100px;
 	font-size: 20px;
 	float:left;
 }
 
-#crystals{
+.crystal-image{
 
 	clear:both;
-
-}
-
-#red{
 	display: inline-block;
 
 }
 
 
-#blue{
-	display: inline-block;
-}
 
-#yellow{
-	display: inline-block;
-}
-
-#green{
-	display: inline-block;
-}
-
-#totalscore{
+#totalScore{
 	background-color:pink;
 	width: 150px;
 
@@ -89,6 +74,7 @@ body{
 	width: 150px;
 	height: 300px;
 	font-size: 30px;
+	display: block;
 }
 
 
