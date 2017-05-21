@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <title> Crystals Collector</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+	
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+		<h1 class = "header">Crystals Collector </h1>
+
+
+
+
+</head>
+
+
+<body>
+
+<div id = "container">
+	<p>
+		<ul>
+
+		<br><br>
+
+			<li> You will be shown a random number at the start of the game.</li>
+		
+		<br><br><br>
+
+		<li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
+
+		<br><br><br>
+
+		<li>You win the game if your total score matches the random number and you loses the game if the total score goes above the random number.</li>
+
+		<br><br><br>
+
+		<li>The value of the  crystal adds is not shown to you until you click on it. but their total score is displayed and updated after each crystal is clicked.</li>
+
+		<br><br><br>
+
+		<li>When the game is restarted, the player will be shown a new random number, all the crystals will now have 4 different hidden values, and the player's total score is reset to 0.	</li>
+
+		<br><br><br>
+
+	</ul>
+</p>
+
+</div>
+			<div id = "random-number">
+
+					34
+
+			</div>
+
+				<div id = "scoreboard">
+
+					wins 
+
+					<br>
+
+					losses
+
+				</div>
+
+
+	<div id = "crystals">
+	</div>
+	
+		<div id = "red">
+
+			<img src = "assets/images/red.png" height="200" width="200">
+
+		</div>
+
+
+			<div id = "blue">
+
+				<img src = "assets/images/blue.png" height="200" width="200">
+
+			</div>
+
+
+						<div id = "yellow">
+
+							<img src = "assets/images/yellow.png" height="200" width="200">
+
+						</div>
+
+			<div id = "green">
+
+				<img src = "assets/images/green.png" height="200" width="200">
+
+			</div>
+
+
+		</div>
+</div>
+
+<div id = "totalscore">
+
+	<p> Your total score is:  </p>
+
+</div>
+
+<div id = "player-guess">
+
+0
+
+</div>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script> 
+<script type="text/javascript" src ="assets/javascript/game.js">
+
+$(document).ready(function(){
+
+  var targetNumber = Math.floor((Math.random() * 120) + 19)
+  $("#number-to-guess").text(targetNumber);
+  var counter = 0;
+
+
+  var red = [10, 5, 3, 7];
+
+  var blue = [11, 6, 4 6];
+
+  var green = [12, 1, 8, 9];
+
+  var yellow = [9, 2, 3,  1];
+
+
+	function myFunction() {
+    document.getElementById("crystals").click();
+}
+
+
+
+ 
+
+
+</body>
+</html>
