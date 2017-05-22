@@ -3,20 +3,22 @@ body {
 	background-size: 200px;
 }
 
-h1{
+h1 {
 	background-color: orange;
 	color: white;
 	display:inline;
-	clear: both;
 	padding: 10px;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 	border: solid 1px #ddd;
+	text-align: center;
 }
+
 
 #wrapper {
 	width: 100%
 	max-width:960px;
 	margin: 0 auto;
+
 }
 
 #instructions {
@@ -26,7 +28,7 @@ h1{
 	padding: 15px;
 	margin-top: 20px;
 	border: solid 1px #32CD32;
-	color: red;
+	color: #FF1493;
 }
 
 #guessingNumber {
@@ -56,8 +58,8 @@ h1{
 
 .crystalImage {
 	height: 175px;
-	border: solid 1px #32CD32;
-	margin-left: 10px
+	border: solid 2px #32CD32;
+	margin-left: 10px;
 }
 
 .crystalImage:firstchild {
