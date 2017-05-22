@@ -1,113 +1,75 @@
-
-
-body{
-	background: url("https://images.freecreatives.com/wp-content/uploads/2016/03/Amazing-Crystal-background.jpg");
-	background-size: 200px;
-	
+body {
+	background-image: url("../images/background.jpg");
 }
 
-
-
-
-
-.header{
-	background-color: #DAA520;
-	font-family: 'Audiowide', cursive;
-	color:#DA70D6;
-	width:400px;
-	text-align: center;
-	height: 50px;
-    padding: 50px;
-
-
+h1{
+	background-color: orange;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
 }
 
-
-#container{
-	background-color:#DA70D6;
-	width:750px;
-	font-size: 20px;
-
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
 }
 
-#Random-Number{
-	background-color: #008080;
-	display:inline-block;
-	font-size: 50px;
-	width:150px;
-	height:200px;
-	margin:100px;
-	
-}
-
-
-#scoreboard{
-	background: purple;
-	color:white;
-	width: 150px;
-	height: 100px;
-	padding: 20px;
-	display: inline-block;
-	font-size: 20px;
-	margin:100px;
-	font-size: 20px;
-	float:left;
-}
-
-.crystal-image{
-
+#instructions {
+	background-color: white;
+	width: 50%;
 	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#guessingNumber {
+	background-color: green;
+	float: left;
 	display: inline-block;
-
+	padding: 10px;
+	margin-top: 20px;
+	border: solid 1px #ddd
 }
 
-
-
-#totalScore{
-	background-color:pink;
-	width: 150px;
-
-}
-
-#player-guess{
-	background-color: pink;
-	width: 150px;
-	height: 300px;
-	font-size: 30px;
-	display: block;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	width: 100px;
+#scoreboard {
+	background-color: #03A9F4;
 	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd
 
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts {
+	background: #009688;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd
 }

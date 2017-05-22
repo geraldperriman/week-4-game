@@ -1,121 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8"/>
-  <title> Crystals Collector</title>
-
-  <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
-	
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
-		<h1 class = "header">Crystals Collector </h1>
-
-
-
-
+	<title>Crystal Collectors</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
-
 <body>
 
-<div id = "container">
-	<p>
-		<ul>
+<div id = "wrapper">
 
-		<br><br>
+<h1><span>Crystal Collectors!<span></h1>
 
-			<li> You will be shown a random number at the start of the game.</li>
-		
-		<br><br><br>
-
-		<li>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</li>
-
-		<br><br><br>
-
-		<li>You win the game if your total score matches the random number and you loses the game if the total score goes above the random number.</li>
-
-		<br><br><br>
-
-		<li>The value of the  crystal adds is not shown to you until you click on it. but their total score is displayed and updated after each crystal is clicked.</li>
-
-		<br><br><br>
-
-		<li>When the game is restarted, the player will be shown a new random number, all the crystals will now have 4 different hidden values, and the player's total score is reset to 0.	</li>
-
-		<br><br><br>
-
-	</ul>
-</p>
-
-</div>
-			<div id = "Random-Number" ><span id="number-to-guess"></span>
-
-					
-
-			</div>
-
-				<div id = "scoreboard"><span id=""></span>
-
-					wins 
-
-					<br><br><br>
-
-					losses
-
-				</div>
-
-
-	<div id = "crystals">
+	<div id="instructions">
+		<p> You will be given a random number at the start of the game.</p>
+		<p> There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+		<p> You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number. </p>
+		<p> Each time the game starts, the game will change the values of each crystal.</p>
 	</div>
+
+	<div class = "container">
+		<div id="guessingNumber">
+			<h2>Number to Guess: <span class="value"></span></h2> 	
+		</div>
+
+		<div id="scoreboard">
+			<h3><span id="status"></span></h3>
+			<h3>Wins: <span id="win"></span></h3>
+			<h3>Losses: <span id="loss"></span> </h3>
+		</div>
+	</div>
+
 	
-		<div class= "crystal-image"  data-crystalvalue = "crystals">
+	<div id="crystals"></div>
 
-			<img src = "assets/images/red.png" height="200" width="200">
-
-		</div>
-
-
-			<div class = "crystal-image" data-crystal-value = "crystals">
-
-				<img src = "assets/images/blue.png" height="200" width="200">
-
-			</div>
-
-
-						<div class = "crystal-image" value="crystals">
-
-							<img src = "assets/images/yellow.png" height="200" width="200">
-
-						</div>
-
-			<div class = "crystal-image" value="crystals">
-
-				<img src = "assets/images/green.png" height="200" width="200">
-
-			</div>
-
-
-		</div>
-</div>
-
-<div id = "totalScore" ><span id= "counter"></span>
-
-	<p> Your total score is:   </p>
-
-</div>
-
-<div id = "player-guess"><span id= "text"></span>
-
-
+	<div id ="totalScore">
+		<h2 id = "yts">Your Total Score is: <span id ="yourScore">0</span></h2>
+		
+	</div>
 
 </div>
 
 
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script> 
-<script type="text/javascript" src ="assets/javascript/game.js">
+<!-- adding jQuery -->
 
- 
-</script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
 
 </body>
 </html>
