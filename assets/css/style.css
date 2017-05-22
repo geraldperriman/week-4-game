@@ -1,5 +1,6 @@
 body {
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/Amazing-Crystal.jpg");
+	background-size: 200px;
 }
 
 h1{
@@ -19,30 +20,31 @@ h1{
 }
 
 #instructions {
-	background-color: white;
-	width: 50%;
+	background-color: black;
+	width: 45%;
 	clear:both;
 	padding: 15px;
 	margin-top: 20px;
-	border: solid 1px #ddd
+	border: solid 1px #32CD32;
+	color: red;
 }
 
 #guessingNumber {
-	background-color: green;
+	background-color: #C5B358;
 	float: left;
 	display: inline-block;
 	padding: 10px;
 	margin-top: 20px;
-	border: solid 1px #ddd
+	border: solid 1px #00FFFF;
 }
 
 #scoreboard {
-	background-color: #03A9F4;
+	background-color: #00FFFF;
 	display: inline-block;
 	padding: 15px 20px 10px 15px;
 	margin-top: 20px;
 	margin-left: 20px;
-	border: solid 1px #ddd
+	border: solid 1px #C5B358;
 
 }
 
@@ -53,8 +55,8 @@ h1{
 }
 
 .crystalImage {
-	height: 111px;
-	border: solid 1px #272525;
+	height: 175px;
+	border: solid 1px #32CD32;
 	margin-left: 10px
 }
 
@@ -68,8 +70,8 @@ h1{
 }
 
 #yts {
-	background: #009688;
+	background: #FF00FF;
 	display: inline;
 	padding: 20px;
-	border: solid 1px #ddd
+	border: solid 1px #ddd;
 }
