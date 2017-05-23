@@ -4,12 +4,14 @@ body {
 }
 
 h1 {
-	background-color: orange;
-	color: white;
-	display:inline;
+	background-color: #FF1493;
+	color: black;
+	display:block;
 	padding: 10px;
-	margin-bottom: 30px;
-	border: solid 1px #ddd;
+	margin:0 auto;
+	margin-left: 500px;
+	margin-right: 500px;
+	border: solid 5px #32CD32;
 	text-align: center;
 }
 
@@ -26,26 +28,34 @@ h1 {
 	width: 45%;
 	clear:both;
 	padding: 15px;
-	margin-top: 20px;
-	border: solid 1px #32CD32;
+	margin: 0 auto;
+	margin-top: 50px;
+	border: solid 10px #32CD32;
 	color: #FF1493;
 }
 
 #guessingNumber {
 	background-color: #C5B358;
-	float: left;
-	display: inline-block;
+	display: flex;
+	justify-content:center;
+	align-items: center;
 	padding: 10px;
 	margin-top: 20px;
+	margin-left: 375px;
+	margin-right: 750px;
 	border: solid 1px #00FFFF;
 }
 
 #scoreboard {
 	background-color: #00FFFF;
-	display: inline-block;
-	padding: 15px 20px 10px 15px;
-	margin-top: 20px;
-	margin-left: 20px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	margin:0 auto;
+	padding: 15px;
+	margin-top: -88px;
+	margin-left: 750px;
+	margin-right: 375px;
 	border: solid 1px #C5B358;
 
 }
@@ -53,11 +63,16 @@ h1 {
 #crystals {
 	margin-top: 15px;
 	margin-bottom:26px;
+	display: flex;
+	margin: 0 auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
 
 }
 
 .crystalImage {
-	height: 175px;
+	height: 200px;
 	border: solid 2px #32CD32;
 	margin-left: 10px;
 }
@@ -68,6 +83,11 @@ h1 {
 }
 
 #totalScore {
+	display:flex;
+	margin:0 auto;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px;
 	margin-bottom: 50px;
 }
 
