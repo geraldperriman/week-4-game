@@ -1,6 +1,7 @@
 body {
 	background-image: url("../images/Amazing-Crystal.jpg");
 	background-size: 200px;
+	font-family: 'Metamorphous', cursive;
 }
 
 h1 {
@@ -13,6 +14,7 @@ h1 {
 	margin-right: 500px;
 	border: solid 5px #32CD32;
 	text-align: center;
+	font-family: 'Metamorphous', cursive;
 }
 
 
@@ -43,6 +45,7 @@ h1 {
 	margin-top: 20px;
 	margin-left: 375px;
 	margin-right: 750px;
+	margin-bottom: 20px;
 	border: solid 1px #00FFFF;
 }
 
@@ -53,9 +56,9 @@ h1 {
 	align-items: center;
 	margin:0 auto;
 	padding: 15px;
-	margin-top: -88px;
-	margin-left: 750px;
-	margin-right: 375px;
+	margin-top: -120px;
+	margin-left: 700px;
+	margin-right: 370px;
 	border: solid 1px #C5B358;
 
 }
